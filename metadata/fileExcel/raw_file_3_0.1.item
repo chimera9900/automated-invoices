@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_ANjrME9SEeq4dOi1CS1pWw" name="raw_file_3" dataPackage="_ANjrMU9SEeq4dOi1CS1pWw" Server="Localhost 127.0.0.1" FilePath="/home/jen/Desktop/invoice/TBPS 2019 Donations Receipts.xls" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Sheet2" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Sheet2:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_ANjrMU9SEeq4dOi1CS1pWw" name="default" dataManager="_ANjrME9SEeq4dOi1CS1pWw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ANjrMk9SEeq4dOi1CS1pWw" id="_uRGFoE9REeq4dOi1CS1pWw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ANjrM09SEeq4dOi1CS1pWw" label="index" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ANjrNE9SEeq4dOi1CS1pWw" label="Customer_ID" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ANjrNU9SEeq4dOi1CS1pWw" label="Official_Receipt__" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ANjrNk9SEeq4dOi1CS1pWw" label="Name" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ANjrN09SEeq4dOi1CS1pWw" label="Address" length="31" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ANjrOE9SEeq4dOi1CS1pWw" label="Address_2" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ANjrOU9SEeq4dOi1CS1pWw" label="Donations" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
